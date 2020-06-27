@@ -51,6 +51,22 @@ In this homework assignment, you will need to:
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
+### Analysis
+- - - 
+## Model-1 SVM
+* After doing some clean up and dropping unnecessary columns to make the data as precise as possible to get accurate reading, using the SVM model getting scores for:
+  `Training Data Score: 0.8916650772458516`
+  `Testing Data Score: 0.8947368421052632`
+* Using GridSearchCV to scale the model's parametersand grid parameters `C` and `gamma` did not get any score improvement.
+
+## Model-2 Logistic Regression
+* For this model, the data clean up and preprocessing were the same as the SVM model.
+* The training and testing scores were: `Training Data Score: 0.887659736791913`
+`Testing Data Score: 0.8895881006864989`
+* Using the GridSearchCV to scale the model's parameters changing `C` values and number of iterations `max_iter` did not improve scores adequately.
+
+In conclusion, the two models `SVM` and `LogisticRegression` did not have any notable differences. Based on the training and testing data scores, we can say the `SVM` model performs slightly better.
+
 - - -
 
 ## Resources
