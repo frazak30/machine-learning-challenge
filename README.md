@@ -1,4 +1,3 @@
-# machine-learning-challenge
 # Machine Learning Homework - Exoplanet Exploration
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
@@ -54,10 +53,10 @@ In this homework assignment, you will need to:
 ### Analysis
 - - - 
 ## Model-1 SVM
-* After doing some clean up and dropping unnecessary columns to make the data as precise as possible to get accurate reading, using the SVM model getting scores for:
+* After doing some clean up and dropping unnecessary columns to make the data as precise as possible to get accurate reading, using the SVM model to get scores for:
   `Training Data Score: 0.8916650772458516`
   `Testing Data Score: 0.8947368421052632`
-* Using GridSearchCV to scale the model's parametersand grid parameters `C` and `gamma` did not get any score improvement.
+* Using GridSearchCV to scale the model's parameters and grid parameters `C` and `gamma` did not get any score improvement.
 
 ## Model-2 Logistic Regression
 * For this model, the data clean up and preprocessing were the same as the SVM model.
